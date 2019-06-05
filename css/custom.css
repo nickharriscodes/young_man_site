@@ -83,6 +83,12 @@ body {
     padding-top:40px;
 }
 
+.buttons {
+    
+    background-color:  #CFC9AB;
+    border: 2px solid #413F2D;
+}
+
 /* Media Queries for responsive */
 
 @media screen and (max-width: 766px) {
