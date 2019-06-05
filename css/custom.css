@@ -59,20 +59,50 @@ body {
     letter-spacing: 1px;
 }
 
+.caption-two {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+
+.caption-line {
+    position: absolute;
+    bottom: 65px;
+    right: 5px;
+    left: 5px;
+    color:white;
+    background-color: white;
+    height: 1px;
+}
+
 #albumcoming {
     font-size: 300%; 
     padding-left:40px; 
     padding-top:40px;
 }
 
-/* Media Query for responsive */
+/* Media Queries for responsive */
 
 @media screen and (max-width: 766px) {
     #nav-logo {display: none;}
     .menu-links {letter-spacing: 0px;}
     #top-panel {padding-top:60px;}
-    #bandname {padding:40px 40px 40px 40px; font-size:300%}
     #brand {visibility: visible; margin-right: 0px; padding-top: 20px;}
-    #albumcoming {font-size: 200%; padding-left:40px; padding-top:40px;}
   } 
 
+
+  @media screen and (max-width: 974px) {
+    .caption {display: none;}
+    .caption-two {display: none;}
+    .caption-line {display: none;}
+    #albumcoming {font-size: 200%; padding-left:40px; padding-top:40px;} 
+    #bandname {padding:40px 40px 40px 40px; font-size:300%}
+  }
+
+  @media screen and (min-width: 765px) {
+    .kaption {display: block;}
+    .kaption-two {display: block;}
+    .kaption-line {display: block;}
+  }
