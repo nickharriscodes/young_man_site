@@ -89,6 +89,10 @@ body {
     border: 2px solid #413F2D;
 }
 
+.buttons-text {
+    padding: 20px 15px 20px 15px; color:#413F2D;
+}
+
 /* Media Queries for responsive */
 
 @media screen and (max-width: 766px) {
@@ -105,6 +109,10 @@ body {
     .caption-line {display: none;}
     #albumcoming {font-size: 200%; padding-left:40px; padding-top:40px;} 
     #bandname {padding:40px 40px 40px 40px; font-size:300%}
+  }
+
+  @media screen and (max-width: 1095px) {
+    .buttons-text {font-size: 100%;}
   }
 
   @media screen and (min-width: 765px) {
