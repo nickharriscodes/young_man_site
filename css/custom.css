@@ -102,6 +102,27 @@ body {
     display: none;
 }
 
+input::placeholder {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: .6;
+}
+
+.email {
+	border: none;
+	border-radius: 8px;
+	background-color: #57553B;
+}
+
+
+.submit {	
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;	
+    border-radius: 8px;	
+    background-color: #2C2B1E;
+}
+
 /* Media Queries for responsive */
 
 @media screen and (max-width: 766px) {
