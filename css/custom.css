@@ -133,7 +133,7 @@ input::placeholder {
     .shows-text {padding-top: 20px;}
     .hideout-m {display: block;}
     .hideout {display:none;}
-    .buttons-text {font-size: 85%;}
+    .buttons-text {font-size: 85%;padding: 10px 5px 10px 5px;}
   } 
 
 
