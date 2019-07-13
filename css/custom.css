@@ -8,6 +8,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.container-fluid.custom {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 #bandname {
     font-size: 600%;
 }
