@@ -93,6 +93,9 @@ body {
     cursor: pointer;
     background-color:  #CFC9AB;
     border: 1px solid #413F2D;
+    width: 601px;
+    height: 118;
+    text-align: center;
 }
 
 .buttons-text {
