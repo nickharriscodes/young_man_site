@@ -9,6 +9,10 @@ body {
     font-family: 'FreightTextProMedium-Regular';
 }
 
+p {
+    margin: 0;
+}
+
 .container-fluid.custom {
     padding-left: 30px;
     padding-right: 30px;
@@ -89,6 +93,10 @@ body {
     padding-top:40px;
 }
 
+.tracks {
+    font-size: 25px;
+}
+
 .buttons {
     cursor: pointer;
     background-color:  #CFC9AB;
@@ -149,6 +157,10 @@ input::placeholder {
     .buttons {width: 100%; height: 100%;}
 }
 
+@media screen and (max-width: 1200px) {
+    #albumcoming {font-size: 150%; padding-left:40px; padding-top:40px;} 
+}
+
 @media screen and (max-width: 766px) {
     #nav-logo {display: none;}
     .menu-links {letter-spacing: 0px;}
@@ -157,7 +169,8 @@ input::placeholder {
     .shows-text {padding-top: 20px;}
     .hideout-m {display: block;}
     .hideout {display:none;}
-    .buttons-text {font-size: 85%;padding: 10px 5px 10px 5px;}
+    .buttons-text {font-size: 75%;padding: 10px 5px 10px 5px;}
+    .credits {display: block;}
   } 
 
 
@@ -165,16 +178,13 @@ input::placeholder {
     .caption {display: none;}
     .caption-two {display: none;}
     .caption-line {display: none;}
-    #albumcoming {font-size: 200%; padding-left:40px; padding-top:40px;} 
     #bandname {padding:40px 40px 40px 40px; font-size:300%}
+    .tracks {font-size: 100%;}
+    .credits {display: none;}
   }
 
   @media screen and (max-width: 1095px) {
-    .buttons-text {font-size: 100%;}
-  }
-
-  @media screen and (min-width: 765px) {
-    .kaption {display: block;}
-    .kaption-two {display: block;}
-    .kaption-line {display: block;}
+    .buttons-text {font-size: 110%;}
+    .tracks {font-size: 150%;}
+    .credits {font-size: 90%}
   }
