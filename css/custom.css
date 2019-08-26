@@ -161,6 +161,21 @@ input::placeholder {
     #albumcoming {font-size: 150%; padding-left:40px; padding-top:40px;} 
 }
 
+@media screen and (max-width: 1095px) {
+    .buttons-text {font-size: 110%;}
+    .tracks {font-size: 150%;}
+    .credits {font-size: 90%}
+  }
+
+  @media screen and (max-width: 974px) {
+    .caption {display: none;}
+    .caption-two {display: none;}
+    .caption-line {display: none;}
+    #bandname {padding:40px 40px 40px 40px; font-size:300%}
+    .tracks {font-size: 100%;}
+    .credits {display: none;}
+  }
+
 @media screen and (max-width: 766px) {
     #nav-logo {display: none;}
     .menu-links {letter-spacing: 0px;}
@@ -172,19 +187,4 @@ input::placeholder {
     .buttons-text {font-size: 75%;padding: 10px 5px 10px 5px;}
     .credits {display: block;}
   } 
-
-
-  @media screen and (max-width: 974px) {
-    .caption {display: none;}
-    .caption-two {display: none;}
-    .caption-line {display: none;}
-    #bandname {padding:40px 40px 40px 40px; font-size:300%}
-    .tracks {font-size: 100%;}
-    .credits {display: none;}
-  }
-
-  @media screen and (max-width: 1095px) {
-    .buttons-text {font-size: 110%;}
-    .tracks {font-size: 150%;}
-    .credits {font-size: 90%}
-  }
+  
