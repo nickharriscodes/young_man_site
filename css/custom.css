@@ -163,6 +163,10 @@ input::placeholder {
     width: 215px;
 }
 
+.submit:hover {
+    cursor: pointer;
+}
+
 .email-button {
     border: none;
     font-family: 'BrandonGrotesqueWeb-Bold';
