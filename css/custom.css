@@ -163,6 +163,24 @@ input::placeholder {
     width: 215px;
 }
 
+.email-button {
+    border: none;
+    font-family: 'BrandonGrotesqueWeb-Bold';
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: white;	
+    border-radius: 8px;	
+    background-color: #2C2B1E;
+    height: 55px;
+    width: auto;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+.email-button:hover {
+    cursor: pointer;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
