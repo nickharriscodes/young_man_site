@@ -269,6 +269,7 @@ a:active {
 
 @media screen and (max-width: 1200px) {
     #albumcoming {font-size: 150%; padding-left:40px; padding-top:40px;} 
+    .upcoming-shows {max-height: 350px; border: 1px solid #413F2D;}
 }
 
 @media screen and (max-width: 1095px) {
