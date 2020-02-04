@@ -13,6 +13,11 @@ p {
     margin: 0;
 }
 
+video {
+    height: auto;
+    width: 100%;
+}
+
 .container-fluid.custom {
     padding-left: 30px;
     padding-right: 30px;
