@@ -118,6 +118,7 @@ video {
     margin: 10px;
     height: auto;
     overflow: auto;
+    color:#413F2D;
 }
 
 .shows-box {
@@ -201,6 +202,33 @@ input::placeholder {
     cursor: pointer;
 }
 
+.parent-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex {
+    justify-content: space-between;
+}
+
+.brown-text {
+    color:#413F2D;
+}
+
+.brown-text {
+    text-decoration: none;
+}
+
+a:link {
+    color:#413F2D;
+}
+
+a:visited,
+a:hover,
+a:active {
+    color: white;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -264,7 +292,7 @@ input::placeholder {
 
 @media screen and (max-width: 766px) {
     .email-text {font-size: 16px;}
-    .email {width: 350px;}
+    .email {width: 300px;}
     #nav-logo {display: none;}
     .menu-links {letter-spacing: 0px;}
     #top-panel {padding-top:60px;}
@@ -275,5 +303,7 @@ input::placeholder {
     .buttons-text {font-size: 110%;padding: 10px 5px 10px 5px;}
     .credits {display: block;}
     .upcoming-shows {max-height: 500px; border: none;}
+    .parent-flex {flex-direction: column;}
+    .flex {justify-content: space-evenly;}
   } 
   
