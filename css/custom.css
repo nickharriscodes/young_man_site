@@ -109,6 +109,17 @@ p {
     font-size: 25px;
 }
 
+.upcoming-shows {
+    margin: 10px;
+    height: auto;
+    overflow: auto;
+}
+
+.shows-box {
+    max-width: 100%;
+    height: auto;
+}
+
 .buttons {
     cursor: pointer;
     background-color:  #CFC9AB;
@@ -124,7 +135,7 @@ p {
 
 .shows-text {
     font-size:250%;
-    padding-top:200px;
+    padding-top:20px;
 }
 
 .hideout-m {
@@ -238,10 +249,12 @@ input::placeholder {
     .caption-two {display: none;}
     .caption-line {display: none;}
     .credits {display: none;}
+    .upcoming-shows {max-height: 275px; border: 1px solid #413F2D;}
   }
 
   @media screen and (max-width: 900px) {
     #bandname {padding:40px; font-size:300%}
+    .upcoming-shows {max-height: 230px;}
   }
 
 @media screen and (max-width: 766px) {
@@ -256,5 +269,6 @@ input::placeholder {
     .hideout {display:none;}
     .buttons-text {font-size: 110%;padding: 10px 5px 10px 5px;}
     .credits {display: block;}
+    .upcoming-shows {max-height: 500px; border: none;}
   } 
   
