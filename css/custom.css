@@ -260,6 +260,11 @@ a:active {
     color: white;
   }
 
+  /* YouTude */
+  .fa-youtube {
+      background: rgb(233, 63, 54)
+  }
+
 /* Media Queries for responsive */
 
 @media screen and (max-width: 1300px) {
