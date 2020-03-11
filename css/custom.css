@@ -219,11 +219,12 @@ input::placeholder {
     text-decoration: none;
 }
 
+a:visited,
 a:link {
     color:#413F2D;
 }
 
-a:visited,
+
 a:hover,
 a:active {
     color: white;
