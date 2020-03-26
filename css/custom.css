@@ -263,7 +263,8 @@ a:active {
 
   /* YouTude */
   .fa-youtube {
-      background: rgb(233, 63, 54)
+      background: rgb(233, 63, 54);
+      color: white;
   }
 
 /* Media Queries for responsive */
