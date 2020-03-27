@@ -18,6 +18,13 @@ video {
     width: 100%;
 }
 
+.content-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1366px;
+}
+
 .container-fluid.custom {
     padding-left: 30px;
     padding-right: 30px;
